@@ -5,7 +5,7 @@ public class Exception_han {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         try {
-            System.exist(0);
+//            System.exist(0);
             int a=s.nextInt();
             int b=s.nextInt();
             int arr[]={122,45,67,89,90};
