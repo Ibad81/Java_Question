@@ -1,0 +1,5 @@
+package music;
+public inteface playable{
+  void play();
+  }
+  
