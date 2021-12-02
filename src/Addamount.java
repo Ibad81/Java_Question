@@ -1,29 +1,21 @@
-class AddAmount
-{
-    private int amount = 50;
-
-    public AddAmount()
-    {
+class Addamount{
+    int Amount=50;
+    public Addamount(){
 
     }
-
-    public AddAmount(int a)
-    {
-        amount = a+amount;
+    public Addamount(int a){
+        Amount=a+Amount;
     }
+    public void displayAmount(){
+        System.out.println(Amount);
 
-    public void displayAmount()
-    {
-        System.out.println(amount);
     }
 }
 
-class Ans
-{
-    public static void main(String[] args)
-    {
-        AddAmount a = new AddAmount();
-        AddAmount b = new AddAmount(40);
+class Ansy{
+    public static void main(String[] args) {
+        Addamount a= new Addamount();
+        Addamount b=new Addamount(40);
         a.displayAmount();
         b.displayAmount();
     }
